@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+#header-buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+#header-buttons button {
+    padding: 8px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#event-management-system {
+    text-align: center;
+    flex-grow: 1; /* Make heading take up remaining space */
+}
+
+main {
+    padding: 20px;
+}
+
+.vendor-boxes {
+    display: flex;
+    flex-wrap: wrap; /* Wrap boxes to multiple lines if needed */
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.vendor-box {
+    flex: 0 0 calc(25% - 20px); /* 4 boxes per row */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
