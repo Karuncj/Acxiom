@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management System</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div id="event-management-system">
+        <h1>Event Management System</h1>
+    </div>
+    <br>
+    <div id="signup-form">
+        <h2>Sign Up</h2>
+        <form action="/signup" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <label for="category">Category:</label>
+            <select id="category" name="category">
+                <option value="Catering">Catering</option>
+                <option value="Florist">Florist</option>
+                <option value="Decoration">Decoration</option>
+                <option value="Lighting">Lighting</option>
+            </select>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
