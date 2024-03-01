@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management System</title>
+    <link rel="stylesheet" href="VendorLogin.css">
+</head>
+<body>
+    <div id="container">
+        <div id="event-management-system">
+            <h1>Event Management System</h1>
+        </div>
+        <div id="login-form">
+            <h2>Login</h2>
+            <form action="/login" method="post">
+                <label for="user-id">User ID:</label>
+                <input type="text" id="user-id" name="user-id" placeholder="Enter your User ID" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <button type="submit">Log In</button>
+                <a href="#">Forgot Password?</a>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+
+        function showChart() {
+            // You can add code here to show the chart
+            alert("Chart button clicked!");
+        }
+    </script>
+</body>
+</html>
